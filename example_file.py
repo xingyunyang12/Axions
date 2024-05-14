@@ -142,7 +142,7 @@ print('-' * 50)
 print("Save the non-linear power spectra in a file in the folowing order:")
 print("k [h/Mpc], non-lin total matter PS with axions [(Mpc/h)^3] and non-lin total matter PS in LCDM [(Mpc/h)^3]")
 data_ax = np.column_stack([power_spec_dic_ax['k'], PS_matter_nonlin[0], PS_LCDM_matter_nonlin[0]] )
-datafile_path = "nonlin_PS_with_axion_full_6.txt" #change path if you want
+datafile_path = "nonlin_PS_with_axion.txt" #change path if you want
 np.savetxt(datafile_path , data_ax)
 
 
