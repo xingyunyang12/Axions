@@ -166,7 +166,9 @@ for k in range(len(fa_list)-1):
         #
         # old_fa = str(old_fa)
         # fa = str(fa)
+        
 
+        #chaning the axion fraction
         with open(input_file_path,'r') as file:
             text = file.read()
 
